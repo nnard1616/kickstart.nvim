@@ -43,7 +43,7 @@ vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 vim.opt.tabstop=4
 vim.opt.shiftwidth=4
-vim.opt.expandtab=true
+-- vim.opt.expandtab=true
 
 -- Install package manager
 --    https://github.com/folke/lazy.nvim
@@ -74,7 +74,7 @@ require('lazy').setup({
   'tpope/vim-rhubarb',
 
   -- Detect tabstop and shiftwidth automatically
-  'tpope/vim-sleuth',
+   'tpope/vim-sleuth',
 
   -- NOTE: This is where your plugins related to LSP can be installed.
   --  The configuration is done below. Search for lspconfig to find it below.
